@@ -3,6 +3,7 @@ import './App.css';
 import Movie from './Movie';
 import PageWrapper from './PageWrapper';
 import moviesJson from './movies.json';
+import Pagination from './pagination';
 
 function App() {
 
@@ -23,6 +24,13 @@ function App() {
           {movie.movieDescription}
         </Movie>
       )}
+
+      <Pagination
+        actualPage={2}
+        totalPages={5}
+        onChange={(page) => {
+          alert(page)
+        }} />
 
 
     </PageWrapper>
