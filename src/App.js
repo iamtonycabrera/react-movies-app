@@ -1,39 +1,22 @@
-import logo from './logo.svg';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Movie from './Movie';
-import PageWrapper from './PageWrapper';
-import moviesJson from './movies.json';
-import Pagination from './pagination';
+import Blog from './views/Blog';
+import MoviesList from './views/MoviesList';
 
 function App() {
 
-  let movies = moviesJson
-
   return (
-    <PageWrapper>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/">
+          <MoviesList />
+        </Route>
+      </Switch>
+    </BrowserRouter>
 
-      {movies.map(movie =>
-        <Movie
-          movieImage={movie.movieImage}
-          movieTitle={movie.movieTitle}
-          movieRating={movie.movieRating}
-          movieDuration={movie.movieDuration}
-          movieRelease={movie.movieRelease}
-          movieDirector={movie.movieDirector}
-          movieActors={movie.movieActors}>
-          {movie.movieDescription}
-        </Movie>
-      )}
-
-      <Pagination
-        actualPage={2}
-        totalPages={5}
-        onChange={(page) => {
-          alert(page)
-        }} />
-
-
-    </PageWrapper>
   );
 }
 

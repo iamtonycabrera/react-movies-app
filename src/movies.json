@@ -48,5 +48,55 @@
       "movieDirector": "Alan Taylor",
       "movieActors": "Chris Hemsworth, Natalie Portman,Tom Hiddleston",
       "movieDescription": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+    },
+    {
+      "movieImage": "images/uploads/mv1.jpg",
+      "movieTitle": "Oblivion - 2012",
+      "movieRating": "8.1",
+      "movieDuration": "2h21’",
+      "movieRelease": "1 May 2015",
+      "movieDirector": "Joss Whedon",
+      "movieActors": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
+      "movieDescription": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
+    },
+    {
+      "movieImage": "images/uploads/mv2.jpg",
+      "movieTitle": "Into the Wild - 2014",
+      "movieRating": "7.8",
+      "movieDuration": "2h21’",
+      "movieRelease": "1 May 2015",
+      "movieDirector": "Anthony Russo, Joe Russo",
+      "movieActors": "Chris Evans, Samuel L. Jackson, Scarlett Johansson",
+      "movieDescription": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
+    },
+    {
+      "movieImage": "images/uploads/mv3.jpg",
+      "movieTitle": "Blade Runner - 2015",
+      "movieRating": "7.3",
+      "movieDuration": "2h21’",
+      "movieRelease": "1 May 2015",
+      "movieDirector": "Peyton Reed",
+      "movieActors": "Paul Rudd, Michael Douglas",
+      "movieDescription": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help..."
+    },
+    {
+      "movieImage": "images/uploads/mv4.jpg",
+      "movieTitle": "Mulholland Pride - 2013",
+      "movieRating": "7.2",
+      "movieDuration": "2h21’",
+      "movieRelease": "1 May 2015",
+      "movieDirector": "Shane Black",
+      "movieActors": "Robert Downey Jr., Guy Pearce,Don Cheadle",
+      "movieDescription": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+    },
+    {
+      "movieImage": "images/uploads/mv5.jpg",
+      "movieTitle": "Skyfall: Evil of Boss - 2013",
+      "movieRating": "7.0",
+      "movieDuration": "2h21’",
+      "movieRelease": "1 May 2015",
+      "movieDirector": "Alan Taylor",
+      "movieActors": "Chris Hemsworth, Natalie Portman,Tom Hiddleston",
+      "movieDescription": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     }
   ]
